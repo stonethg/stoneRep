@@ -1,0 +1,15 @@
+# 开发测试环境
+
+spring:
+  #redis设置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 2000
+    database: 6
+    pool:
+      testOnBorrow: true
+      maxTotal: 100
+      maxIdle: 100
+      maxWait: 5000
